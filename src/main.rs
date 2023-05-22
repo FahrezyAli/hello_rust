@@ -8,7 +8,7 @@ fn main() {
 
     let mut writer = BufWriter::new(stdout.lock());
     say(message.as_bytes(), width, &mut writer).unwrap();
-
+    
     let number: Vec<i32> = (0..10).collect();
 
     fn do_stuff(val: &Vec<i32>) {
